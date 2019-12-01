@@ -1,4 +1,6 @@
 # AKAN NAMES
+## Author 
+* Daniel * *Sindet *
 #### This project allows user to enter :
 * Date of birth
 * Month
