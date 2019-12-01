@@ -1,4 +1,4 @@
 function mt(){
-alert("Hey");
+alert("Thank you for your sumission");
 document.getElementsByName
 }
