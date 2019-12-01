@@ -4,4 +4,4 @@
 * Month
 * Year
 * Gender
-#### in retun gives you your day of birth and ** akan name **
+#### in retun gives you your day of birth and *akan name*

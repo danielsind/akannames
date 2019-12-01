@@ -8,5 +8,10 @@ var y = parseInt(document.getElementsByTagName("input")[0].value);
 alert("your year is " + y);
 var g = document.getElementsByTagName("select")[2].value;
 alert("yours gender is " + g);
+var date = new Date(y,m,d);
+var day = date.getDay();
+alert(day);
+var days = ["Thursday","Friday" , "Sartuday","Sunday" , "Monday" ,"Tuesday", "Wendesday"];
+alert(days[day]);
 
 }
