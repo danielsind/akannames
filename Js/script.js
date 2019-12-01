@@ -1,4 +1,5 @@
 function mt(){
 alert("Thank you for your sumission");
-document.getElementsByName
+var n = document.getElementsByTagName("select")[1].value;
+alert("Your" + n);
 }
