@@ -12,6 +12,25 @@ var date = new Date(y,m,d);
 var day = date.getDay();
 alert(day);
 var days = ["Thursday","Friday" , "Sartuday","Sunday" , "Monday" ,"Tuesday", "Wendesday"];
-alert(days[day]);
+var days2 = ["Friday","Sartuday","Sunday","Monday","Tuesday","Wednesday" ,"Thursday"];
+var days3 = ["Sartuday" , "Sunday", "Monday" , "Tuesday", "Wednesday","Thursday","Friday"]
+if (m==4){
+    alert(days2[day]);
+}
+else if (m==6){
+    alert(days2[day]);
+}
+else if(m==9){
+    alert(days2[day]);
+}
+else if(m==11){
+    alert(days2[day]);
+}
+else if (m == 2){
+    alert(days3[day]);
+}
+else{
+    alert(days[day]);
+}
 
 }
