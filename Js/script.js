@@ -9,51 +9,54 @@ function mt() {
     var days = ["Thursday", "Friday", "Sartuday", "Sunday", "Monday", "Tuesday", "Wendesday"];
     var days2 = ["Friday", "Sartuday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"];
     var days3 = ["Sartuday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
-    var am1 = ["Kwaku","Yaw","Kofi","Kwame","Kwasi","Kwadwo","Kwabena"];
-    var am2 = ["Yaw","Kofi","Kwame","Kwasi","Kwadwo","Kwabena","Kwaku"];
-    var am3 = ["Kofi","Kwame","Kwasi","Kwadwo","Kwabena","Kwaku","Yaw"];
-    var af1 = ["Akua","Yaa","Afua","Ama","Akosua","Adwoa","Abenaa"];
-    var af2 = ["Yaa","Afua","Ama","Akosua","Adwoa","Abenaa","Akua"];
-    var af3 = ["Afua","Ama","Akosua","Adwoa","Abenaa","Akua","Yaa"];
-    if ( g == 1){
+    var am1 = ["Yaw","Kofi","Kwame","Kwasi","Kwadwo","Kwabena","Kwaku"];
+    var am2 = ["Kofi","Kwame","Kwasi","Kwadwo","Kwabena","Kwaku","Yaw"];
+    var am3 = ["Kwame","Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi"];
+    var af1 = ["Yaa","Afua","Ama","Akosua","Adwoa","Abenaa","Akua"];
+    var af2 = ["Afua","Ama","Akosua","Adwoa","Abenaa","Akua","Yaa"];
+    var af3 = ["Ama","Akosua","Adwoa","Abenaa","Akua","Yaa","Afua"];
+    if ( y === "" ){
+        alert("Ooops!!! invalid year entry");
+    }
+    else if ( g == 1){
     if (m == 4 ) {
-        alert( "You were born on " +  days2[day] +  " and your Akan name is " + am2[day]);
+        alert( "You were born on " +  days2[day] +  " and your Male Akan name is " + am2[day]);
     }
     else if (m == 6 ) {
-        alert( "You were born on " +  days2[day] +  " and your Akan name is " + am2[day]);
+        alert( "You were born on " +  days2[day] +  " and your Male Akan name is " + am2[day]);
     }
     else if (m == 9) {
-        alert( "You were born on " +  days2[day] +  " and your Akan name is " + am2[day]);
+        alert( "You were born on " +  days2[day] +  " and your Male Akan name is " + am2[day]);
     }
     else if (m == 11) {
-        alert( "You were born on " +  days2[day] +  " and your Akan name is " + am2[day]);
+        alert( "You were born on " +  days2[day] +  " and your Male Akan name is " + am2[day]);
     }
     else if (m == 2) {
-        alert( "You were born on " +  days3[day] +  " and your Akan name is " + am3[day]);
+        alert( "You were born on " +  days3[day] +  " and your Male Akan name is " + am3[day]);
     }
     else {
-        alert( "You were born on " +  days[day] +  " and your Akan name is " + am1[day]);
+        alert( "You were born on " +  days[day] +  " and your Male Akan name is " + am1[day]);
     }
 
 }
-if ( g == 2){
+else if ( g == 2){
     if (m == 4 ) {
-        alert( "You were born on " +  days2[day] +  " and your Akan name is " + af2[day]);
+        alert( "You were born on " +  days2[day] +  " and your Female Akan name is " + af2[day]);
     }
     else if (m == 6 ) {
-        alert( "You were born on " +  days2[day] +  " and your Akan name is " + af2[day]);
+        alert( "You were born on " +  days2[day] +  " and your Female Akan name is " + af2[day]);
     }
     else if (m == 9) {
-        alert( "You were born on " +  days2[day] +  " and your Akan name is " + af2[day]);
+        alert( "You were born on " +  days2[day] +  " and your Female Akan name is " + af2[day]);
     }
     else if (m == 11) {
-        alert( "You were born on " +  days2[day] +  " and your Akan name is " + af2[day]);
+        alert( "You were born on " +  days2[day] +  " and your Female Akan name is " + af2[day]);
     }
     else if (m == 2) {
-        alert( "You were born on " +  days3[day] +  " and your Akan name is " + af3[day]);
+        alert( "You were born on " +  days3[day] +  " and your Female Akan name is " + af3[day]);
     }
     else {
-        alert( "You were born on " +  days[day] +  " and your Akan name is " + af1[day]);
+        alert( "You were born on " +  days[day] +  " and your Female Akan name is " + af1[day]);
     }
 
 }
