@@ -1,4 +1,6 @@
 function mt() {
+
+    // declaring variables //
     alert("Thank you for your sumission");
     var m = parseInt(document.getElementsByTagName("select")[1].value);
     var d = parseInt(document.getElementsByTagName("select")[0].value);
@@ -21,7 +23,7 @@ function mt() {
 
     var days2 = ["Friday", "Sartuday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"];
 
-    // for months with 31//
+    // for months feb //
 
     var days3 = ["Sartuday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
 
