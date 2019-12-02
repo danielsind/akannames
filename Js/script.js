@@ -50,46 +50,62 @@ function mt() {
         alert("Ooops!!! invalid year entry");
     }
 
-    // if male//
+    // if gender male//
     else if ( g == 1){
+        // april//
     if (m == 4 ) {
         alert( "You were born on " +  days2[day] +  " and your Male Akan name is " + am2[day]);
     }
+    // june //
     else if (m == 6 ) {
         alert( "You were born on " +  days2[day] +  " and your Male Akan name is " + am2[day]);
     }
+    // september //
     else if (m == 9) {
         alert( "You were born on " +  days2[day] +  " and your Male Akan name is " + am2[day]);
     }
+    // november//
     else if (m == 11) {
         alert( "You were born on " +  days2[day] +  " and your Male Akan name is " + am2[day]);
     }
+     // february//
     else if (m == 2) {
         alert( "You were born on " +  days3[day] +  " and your Male Akan name is " + am3[day]);
     }
+    // january , march, may, july, august, october,december //
     else {
         alert( "You were born on " +  days[day] +  " and your Male Akan name is " + am1[day]);
     }
 
 }
 
-// if female//
+// if gender female//
 else if ( g == 2){
+
+    // april //
     if (m == 4 ) {
         alert( "You were born on " +  days2[day] +  " and your Female Akan name is " + af2[day]);
-    }
+    } 
+    // june //
     else if (m == 6 ) {
         alert( "You were born on " +  days2[day] +  " and your Female Akan name is " + af2[day]);
     }
+
+    // september //
     else if (m == 9) {
         alert( "You were born on " +  days2[day] +  " and your Female Akan name is " + af2[day]);
     }
+
+    // november //
     else if (m == 11) {
         alert( "You were born on " +  days2[day] +  " and your Female Akan name is " + af2[day]);
     }
+    // february //
     else if (m == 2) {
         alert( "You were born on " +  days3[day] +  " and your Female Akan name is " + af3[day]);
     }
+
+    // january, march,may,july,august,october,december //
     else {
         alert( "You were born on " +  days[day] +  " and your Female Akan name is " + af1[day]);
     }
