@@ -46,8 +46,8 @@ function mt() {
     var af3 = ["Ama","Akosua","Adwoa","Abenaa","Akua","Yaa","Afua"];
 
     // validity ondition//
-    if ( y === "" ){
-        alert("Ooops!!! invalid year entry");
+    if ( y === "" || m == 2 && d == 31 || m == 2 && d == 30 ){
+        alert("Ooops!!! invalid entry");
     }
 
     // if gender male//
